@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(248, 32%, 49%);
+}
+header{
+    color: white;
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    margin-top: 30px;
+}
+h1{
+    font-size: 29px;
+    margin-top: 35px;
+    text-align: center;
+    color: hsl(245, 23%, 91%);
+    font-family: 'Courier New', Courier, monospace;
+}
+.birth{
+    /* background-color: red; */
+    height: 60px;
+}
+.expressions{
+    margin-top: 10%;
+    /* background-color: red; */
+    font-size: 22px;
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    width: 80%;
+    margin-left: 35px;
+}
+img{
+    width: 80%;
+    margin-left: 10.3%;
+    border-radius: 10%;
+}
+.img-div{
+    margin-top: 15%;
+}
+input{
+    background-color: hsl(251, 21%, 16%);
+    width: 70%;
+    height: 40px;
+    margin-left: 15%;
+    margin-top: 5%;
+    color: hsl(245, 23%, 91%) ;
+    border: none;
+    border-radius: 10px;
+    font-size: larger;
+    box-shadow: 2px 2px 2px 2px hsl(240, 7%, 89%);
+    text-align: center;
+    margin-bottom: 10%;
+}
+input:focus{
+    background-color: hsl(251, 55%, 49%);
+}
+input:last-child{
+    /* color: green; */
+    margin-top: -10;
+    padding: 10px 0px;
+}
+#second-container{
+    display: none;
+}
+.animation{
+    height: 85px;
+    width: 85px;
+    box-shadow: 5px 5px 5px 5px white;
+    /* margin-left: 15%; */
+    position: relative;
+    text-align: center;
+    padding: 15px 0px;
+    color: white;
+    font-weight: bolder;
+    /* background-color: blueviolet; */
+    animation-name: shalom;
+    animation-duration: 7s;
+    animation-iteration-count: 2;
+    margin-top: 7%;
+    margin-bottom: 5%;
+    margin-left: 15%;
+    animation-delay: 0.5s;
+
+}
+#none-second{
+    display: none;
+    margin-top: 65%;
+}
+@keyframes shalom{
+    0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+   75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;} 
+}
+.scroll{
+    color: white;
+    font-weight: bolder;
+    margin-top: -50%;
+}
+
